@@ -32,27 +32,38 @@ function Counter() {
             <br />
 
 
-            <h1>Counter: {counter}</h1>
-            <button onClick={decreaseCounter}>Decrease(-{amount})</button>
-            <button onClick={increaseCounter}>Increase(+{amount})</button>
+            <h1 id='deneme'>Counter: {counter}</h1>
+            <button id='decrease' onClick={decreaseCounter}>Decrease(-{amount})</button>
+            <button id='increase' onClick={increaseCounter}>Increase(+{amount})</button>
             <br />
 
-            <button onClick={() => `${setCounter(0)} && ${setAmount(0)}`}>Reset</button>
+            <button id='reset' onClick={() => `${setCounter(0)} && ${setAmount(0)}`}>Reset</button>
             <br />
 
 
 
-            <button onClick={() => setAmount(0)}>-+0</button>
-            <button onClick={() => setAmount(1)}>-+1</button>
-            <button onClick={() => setAmount(2)}>-+2</button>
-            <button onClick={() => setAmount(3)}>-+3</button>
-            <button onClick={() => setAmount(4)}>-+4</button>
-            <button onClick={() => setAmount(5)}>-+5</button>
-            <button onClick={() => setAmount(6)}>-+6</button>
-            <button onClick={() => setAmount(7)}>-+7</button>
-            <button onClick={() => setAmount(8)}>-+8</button>
-            <button onClick={() => setAmount(9)}>-+9</button>
-            <button onClick={() => setAmount(10)}>-+10</button>
+            <button id='numbers'
+             onClick={() => setAmount(0)}>-+0</button>
+            <button id='numbers'
+             onClick={() => setAmount(1)}>-+1</button>
+            <button id='numbers'
+             onClick={() => setAmount(2)}>-+2</button>
+            <button id='numbers'
+             onClick={() => setAmount(3)}>-+3</button>
+            <button id='numbers'
+             onClick={() => setAmount(4)}>-+4</button>
+            <button id='numbers'
+             onClick={() => setAmount(5)}>-+5</button>
+            <button id='numbers'
+             onClick={() => setAmount(6)}>-+6</button>
+            <button id='numbers'
+             onClick={() => setAmount(7)}>-+7</button>
+            <button id='numbers'
+             onClick={() => setAmount(8)}>-+8</button>
+            <button id='numbers'
+             onClick={() => setAmount(9)}>-+9</button>
+            <button id='numbers'
+             onClick={() => setAmount(10)}>-+10</button>
             <br />
 
 

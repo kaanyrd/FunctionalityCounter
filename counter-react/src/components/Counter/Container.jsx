@@ -13,10 +13,11 @@ function Container() {
   return (
     <div className={theme}>
     <h1>
-    <button onClick={()=> setTheme(`${theme === "light" ? "dark" : "light"}`)}>Change Theme</button>
+    <button id='theme' onClick={()=> setTheme(`${theme === "light" ? "dark" : "light"}`)}>Change Theme</button>
     {console.log(theme)}
     </h1>
-      <Counter/>
+    
+    <Counter/>
     </div>
   )
 }
