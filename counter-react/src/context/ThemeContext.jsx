@@ -14,7 +14,6 @@ const values ={
     theme,
     setTheme
 }
-
     return(
         <ThemeContext.Provider value={values}>{children}</ThemeContext.Provider>
     )

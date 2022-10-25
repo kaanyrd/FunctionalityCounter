@@ -28,11 +28,11 @@ function Counter() {
             {/* <button onClick={() => setTheme(`${theme === "light" ? "dark" : "light"}`)}>Change Theme</button> */}
             {/* {console.log({ theme })} */}
 
-            <h1>Welcome to Functionality Counter</h1>
+            <h1 id='header'>Welcome to Functionality Counter</h1>
             <br />
 
 
-            <h1 id='deneme'>Counter: {counter}</h1>
+            <h1 id='counter'>Counter: {counter}</h1>
             <button id='decrease' onClick={decreaseCounter}>Decrease(-{amount})</button>
             <button id='increase' onClick={increaseCounter}>Increase(+{amount})</button>
             <br />
@@ -67,7 +67,7 @@ function Counter() {
             <br />
 
 
-            <h2>Amount: -+{amount}</h2>
+            <h2 id='amount'>Amount: -+{amount}</h2>
         </div>
     )
 }

@@ -17,7 +17,7 @@ function Container() {
     {console.log(theme)}
     </h1>
     
-    <Counter/>
+    <Counter></Counter>
     </div>
   )
 }
